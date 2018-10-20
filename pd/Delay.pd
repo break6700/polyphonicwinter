@@ -1,0 +1,45 @@
+#N canvas 962 57 956 995 24;
+#X obj 546 54 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 571 136 openpanel;
+#X obj 590 299 soundfiler;
+#X msg 592 217 read -resize \$1 array1;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array array1 65559 float 2;
+#X coords 0 1 65559 -1 200 140 1;
+#X restore 29 51 graph;
+#X obj 287 332 hsl 128 15 0 5000 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 73 761 dac~;
+#X obj 81 262 tabplay~ array1;
+#X obj 128 231 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 106 389 hip~ 400;
+#X obj 27 490 *~;
+#X obj 257 446 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 184 715 delwrite~ bob 2000;
+#X obj 167 917 delread~ bob 2000;
+#X obj 349 805 hsl 128 15 0 1000 0 0 empty empty empty -2 -8 0 10 -258113
+-1 -1 10100 1;
+#X floatatom 591 369 5 0 0 0 - - -, f 5;
+#X text 509 712 This enables bar based delays;
+#X obj 498 512 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 399 546 vsl 15 128 0 1000 0 0 empty empty empty 0 -9 0 10 -4032
+-1 -1 9700 1;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 2 0 15 0;
+#X connect 3 0 2 0;
+#X connect 5 0 9 1;
+#X connect 7 0 9 0;
+#X connect 7 1 8 0;
+#X connect 8 0 7 0;
+#X connect 9 0 10 0;
+#X connect 10 0 6 0;
+#X connect 10 0 12 0;
+#X connect 11 0 10 1;
+#X connect 13 0 6 1;
+#X connect 14 0 13 0;
+#X connect 18 0 12 0;
