@@ -1,23 +1,4 @@
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url('/lato-regular.woff') format('woff');
-}
-body pre {
-     word-break: break-word;
-}
-body, pre {
-    padding: 20px;
-    color: #c0c0c0;
-    background-color: #080808;
-}
-/* Browser specific (not valid) styles to make preformatted text wrap */		
-
-pre {
- white-space: pre-wrap;       /* css-3 */
- white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
- white-space: -pre-wrap;      /* Opera 4-6 */
- white-space: -o-pre-wrap;    /* Opera 7 */
- word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
+@font-face {font-family: 'Lato';font-style: normal;font-weight: 400;src: local('Lato Regular'), local('Lato-Regular'), url('/lato-regular.woff') format('woff');}
+body pre {word-break: break-word;font-size: 16px;}
+body, pre {padding: 20px;color: #c0c0c0;background-color: #080808;}         /* Browser specific (not valid) styles to make preformatted text wrap */		
+pre {white-space: pre-wrap;       /* css-3 */ word-wrap: break-word;       /* Internet Explorer 5.5+ */}
