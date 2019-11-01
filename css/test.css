@@ -6,22 +6,14 @@
 }
 
 body, pre {
-    padding: 0px;
+    padding: 20px;
     color: #c0c0c0;
     background-color: #080808;
 }
-.outer {
-    width: 50%;
-    margin: auto;
-    align: center;
+div pre {
+    width: auto; 
+    border: 6px solid #000000;
 }
-#keys-text {
-    padding: 2%;
-    text-align: left;
-    font-size: 9pt;
-}
-a {
-    font-size: apt;
-    color: #606060;
-    text-decoration:none;
+div.a {
+  word-wrap: break-word;
 }
