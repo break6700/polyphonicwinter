@@ -4,16 +4,11 @@
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url('/lato-regular.woff') format('woff');
 }
-
+body pre {
+     word-break: break-word;
+}
 body, pre {
     padding: 20px;
     color: #c0c0c0;
     background-color: #080808;
-}
-div pre {
-    width: auto; 
-    border: 6px solid #000000;
-}
-div.a {
-  word-wrap: break-word;
 }
