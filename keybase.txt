@@ -1,0 +1,60 @@
+break6700
+Liam Scott
+Audio engineer and acoustician SIGNAL/WHATSAPP: +447307655940 contact@polyphonicwinter.com
+UK
+==================================================================
+https://keybase.io/break6700
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://polyphonicwinter.com
+  * I am break6700 (https://keybase.io/break6700) on keybase.
+  * I have a public key ASCiD_kOwjE7fhMcZDG_HluHbY5rY7nA9CF1FRXOvLu4fwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012039e9f828c303d940e45eecd3a91d6779b6ef75a50a3151ef7e0b771040ac75020a",
+      "host": "keybase.io",
+      "kid": "0120a20ff90ec2313b7e131c6431bf1e5b876d8e6b63b9c0f421751515cebcbbb87f0a",
+      "uid": "9a81faca8f27a51c4587b638bdba4d19",
+      "username": "break6700"
+    },
+    "merkle_root": {
+      "ctime": 1576160036,
+      "hash": "23e2ad873de4eb53acaa6feb3e7864e8c71c036d7ea6daed5e292ac9ec6fabfe4c85d7c5241737a103aaf348af4de6d55ebcec5239b08d5c7d02a233f45bfa6e",
+      "hash_meta": "449a2f50ca076d47d52b73900ead8528d3bcd1af34a157e9815d677474ab51e7",
+      "seqno": 13416525
+    },
+    "service": {
+      "entropy": "8BSNcBw7dRGl20P43iPIRVwo",
+      "hostname": "polyphonicwinter.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1576160043,
+  "expire_in": 504576000,
+  "prev": "53d3588ce314659594aed95603ee4ab9d09e54562b4dfafeac1975ff941d60eb",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgog/5DsIxO34THGQxvx5bh22Oa2O5wPQhdRUVzry7uH8Kp3BheWxvYWTESpcCE8QgU9NYjOMUZZWUrtlWA+5KudCeVFYrTfr+rBl1/5QdYOvEIOEVJMEMwDMWcEijEnQ+FxHruVdSwt0nLAITOD4bDbUcAgHCo3NpZ8RAb45ZCdpFQSu4ZpX3mGyH/5dmd3PAyIuvRQ8ZKs1up99Zew3LsSRZ5Vks9VjZDWgGLkntZMaqufj5C3+aH2rlAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMS9AKBtoatdhEJ+rC5Ro+fAVFEQlvnB/NWPuFTEV9r9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/break6700
+
+==================================================================
